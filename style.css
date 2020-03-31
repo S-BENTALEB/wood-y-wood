@@ -3,7 +3,7 @@ html,body{
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to left bottom, #0f1f17, #172720, #1f3029, #283933, #31423d, #3f524f, #4d6261, #5d7274, #7a8d94, #9ba8b4, #bfc3d2, #e5dfee);
+  background-image: linear-gradient(to right top, #875973, #88585c, #7f5a4d, #6f5e46, #5f6049, #525b48, #475648, #3f5048, #34443f, #2b3935, #212e2c, #192322);
   background-attachment: fixed;
   background-size: 300%;
 }
