@@ -1,0 +1,115 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to left bottom, #0f1f17, #172720, #1f3029, #283933, #31423d, #3f524f, #4d6261, #5d7274, #7a8d94, #9ba8b4, #bfc3d2, #e5dfee);
+  background-attachment: fixed;
+  background-size: 300%;
+}
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page{
+  padding-top: 60px;
+}
+
+#home,#about,#contact{
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+/*MENU START*/
+
+ul,a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu{
+  display :flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+
+
+.child{
+  flex: 1;
+}
+
+h1{
+  margin-left: 30px;
+  color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.liste{
+  transition: border-width 0.1s linear;
+  color: white;
+}
+
+.liste:hover{
+  border-bottom: solid white 5px;
+
+  transform: translateX(4px);
+}
+
+/*MENU END
+
+#home{
+   background-image: radial-gradient(circle, #969696, #828282, #6e6e6e, #5b5b5b, #494849, #3d3c3d, #323131, #272626, #1f1e1e, #171717, #0e0d0e, #000000);
+
+}
+
+#about{
+  background: url(Shurima_logo.webp);
+  background-repeat: no-repeat;
+  background-attachment: auto;
+  background-position: center;  
+  background-color: rgba(0, 0, 0, .9)
+}
+#contact{
+background-image: radial-gradient(circle, #969696, #828282, #6e6e6e, #5b5b5b, #494849, #3d3c3d, #323131, #272626, #1f1e1e, #171717, #0e0d0e, #000000);
+}
+
+*/
+
+
+/*ABOUT START*/
+
+#about .page{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.parts{
+  flex: 1 25%;
+  background-color: blue;
+  padding: 1rem;
+  margin: 6px;
+}
+
+.parts:nth-child(3){
+  order: -1;
+  
+}
