@@ -1,0 +1,90 @@
+/*BUTTON STYLE MN CITE ^^*/
+.button {
+	
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Raleway', sans-serif;
+	color: hsl(220, 80%, 50%);
+	width: 450px;
+	height: 100px;
+	margin-top: calc(50vh - 75px);
+	margin-left: calc(50vw - 175px);
+
+	border-radius: 30px;
+	text-shadow: 
+		0px 5px hsl(0, 10%, 30%), 
+		0px 10px 10px #0003;
+	box-shadow: 
+		0px 0px 0px 15px hsl(0, 6%, 25%),
+		0px 10px 0px 15px hsl(0, 0%, 10%),
+		0px 20px 20px 15px #0003;
+	cursor: pointer;
+	border-radius: 100px 30px 100px 30px;
+     background-image: linear-gradient(to right, #760000, #690e0f, #5c1717, #4d1d1d, #3d2121, #39211e, #34221d, #30221c, #322312, #2c2705, #1f2b00, #003008);
+
+}
+
+.button p {
+	margin-top: 20px;
+	transform: rotate(-2deg);
+	color: grey;
+}
+
+.button:hover {
+	animation: .8s morph ease 1;
+}
+
+.button:hover p {
+	animation: .8s rot ease 2;
+}
+
+@keyframes morph {
+	0% {
+		border-radius: 100px 30px 100px 30px;
+	} 50% {
+		border-radius: 30px 100px 30px 100px;
+	} 100% {
+		border-radius: 100px 30px 100px 30px;
+	}
+}
+
+@keyframes rot {
+	0% {
+		transform: rotate(-3deg);
+	} 50% {
+		transform: rotate(3deg);
+	} 100% {
+		transform: rotate(-3deg);
+	}
+}
+
+/*BUTTON END*/
+
+.page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 17%;
+}
+
+
+.home-child{
+	margin: 20px 0;
+}
+
+.home-child:nth-child(3){
+	margin-top: 70px;
+}
+
+.page h2{
+	font-size: 35px;
+	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 20px darkred;
+	text-align: center;
+}
+
+h3{
+	font-size: 25px;
+	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 15px darkgreen;
+	text-align: center;
+}
+
